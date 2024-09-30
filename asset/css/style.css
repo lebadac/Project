@@ -8,4 +8,68 @@ html {
 
 body {
     font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+/* common */
+a {
+    text-decoration: none;
+}
+
+.main-content {
+    width: 1377px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn {
+    display: inline-block;
+    line-height: 50px;
+    padding: 11px 41px;
+    min-width: 142px;
+
+    color: #224F34;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+/* header */
+.header {
+    background: #C2EFD4;
+}
+.header.fixed {
+    position: sticky;
+    top: -46px;
+}
+.header .body-header {
+    display: flex;
+    align-items: center;
+    padding: 54px 0 8px;
+}
+.nav {
+    margin-left: auto;
+}
+.nav ul {
+    display: flex;
+}
+
+.nav a {
+    color: #224F34;
+    font-size: 2.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 8px 28.5px;
+}
+
+.shopping-bag {
+    margin-left: 184px;
+    margin-right: 59px;
+}
+
+.header .btn-login {
+    min-width: 142px;
+    border-radius: 3px;
+    border: 2px solid #224F34;
 }
